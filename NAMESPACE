@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+importFrom(dplyr, bind_cols)
+importFrom(data.table, rbindlist)
+importFrom(igraph, graph.adjacency)
+importFrom(igraph, plot.igraph)
+importFrom(MASS, mvrnorm)
+import(ggplot2)
