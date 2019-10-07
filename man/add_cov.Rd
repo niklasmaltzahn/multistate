@@ -70,7 +70,7 @@ new_states <- list(state1 = 1:4, state2 = 5)
 
 data_margial <- merge_states(data_sim, new_states, new_tmat)
 
-A_data <- cbind(df_simulated[,c("id", "Tstop")], as.numeric(df_simulated$from \%in\% c(2, 4)))
+A_data <- cbind(data_sim[,c("id", "Tstop")], as.numeric(data_sim$from \%in\% c(2, 4)))
 names(A_data) <- c("id", "Tstop", "A")
 
 data_margial <- add_cov(data_margial, cov_data = A_data)

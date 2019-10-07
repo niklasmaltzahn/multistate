@@ -1,18 +1,18 @@
-\name{plot_mstate}
-\alias{plot_mstate}
+\name{wb_fit}
+\alias{wb_fit}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Plot of multistate graph
+\title{Convenience function for wbMarkov
 %%  ~~function to do ... ~~
 }
-\description{The function plots the bidirectes multistate graph.
+\description{Convenience function for wbMarkov
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-plot_mstate(tmat)
+wb_fit(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{tmat}{Matrix of numerated transitions.
+  \item{x}{
 %%     ~~Describe \code{x} here~~
 }
 }

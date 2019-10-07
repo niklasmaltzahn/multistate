@@ -1,18 +1,18 @@
-\name{plot_mstate}
-\alias{plot_mstate}
+\name{frames_wbMarkov}
+\alias{frames_wbMarkov}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Plot of multistate graph
+\title{Test results from wbMarkov
 %%  ~~function to do ... ~~
 }
-\description{The function plots the bidirectes multistate graph.
+\description{Produces data frames for the test results of the grid test and the point tests.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-plot_mstate(tmat)
+frames_wbMarkov(wb)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{tmat}{Matrix of numerated transitions.
+  \item{wb}{Output from wbMarkov.
 %%     ~~Describe \code{x} here~~
 }
 }
@@ -42,14 +42,7 @@ plot_mstate(tmat)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (x)
-{
-  }
+## See wbMarkov
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
